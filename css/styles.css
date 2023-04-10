@@ -67,6 +67,7 @@ cursor: pointer;
 }
 .container {
 width: 1158px;
+margin: 0 141px;
 }
 .section {
 padding-left: 15px;
@@ -161,7 +162,6 @@ padding-bottom: 24px;
 color: var(--accent-color);
 }
 .page-header {
-padding: 0 141px;
 border-bottom: 1px solid #E7E9FC;
 }
 .header-container {
@@ -207,7 +207,6 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 color: var(--color-white);
 
-padding-top: 188px;
 max-width: 496px; 
 margin: 0 auto 48px auto;
 }
@@ -266,7 +265,7 @@ color:var(--color-slate);
 
 /* section2-What are we doing */
 .sectiontwo {
-padding: 0 141px 120px 141px;
+padding-bottom: 120px;
 }
 .title-sections {
 font-size: 36px;
@@ -348,7 +347,6 @@ padding: 96px 0 120px;
 .filter-list {
 display: flex;
 justify-content: center;
-padding-top: 96px;
 gap: 24px;
 margin-bottom: 72px;
 }
@@ -382,9 +380,6 @@ border: 1px solid transparent;
 }
 
 /* Portfolio */
-.pf-img {
-    margin-bottom: 32px;
-}
 .portfolio-list {
 display: flex;
 flex-wrap: wrap;
@@ -409,11 +404,10 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--portfolio-title-cl);
-
+margin-bottom: 8px;
 }
 .portfolio-card {
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none; 
-margin-bottom: 8px;
 }
