@@ -67,7 +67,7 @@ cursor: pointer;
 }
 .container {
 width: 1158px;
-margin: 0 141px;
+margin: 0 auto;
 }
 .section {
 padding-left: 15px;
@@ -296,6 +296,7 @@ gap: 24px;
 .team-item{
 background-color: var(--color-white);
 width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
 }
 .team-subtitle {
 font-weight: 500;
@@ -315,7 +316,7 @@ letter-spacing: 0.02em;
 color: var(--color-slate);
 }
 .img-teem {
-margin-bottom: 32px;
+
 }
 .team-card {
 padding: 32px 16px;
@@ -334,7 +335,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-cloud);
 width: 264px;
-margin-top: 16px;
 }
 
 
@@ -388,15 +388,13 @@ column-gap: 24px;
 padding-bottom: 120px;
 }
 .portfolio-item {
-width: calc((100% - 48px) / 3); 
-border: 1px solid #E7E9FC;
+width: calc((100% - 48px) / 3);
 }
 .portfolio-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--portfolio-text-cl);
-
 }
 .portfolio-title {
 font-weight: 500;
